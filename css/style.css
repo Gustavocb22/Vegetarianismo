@@ -1,0 +1,81 @@
+body{
+    background-color: #f3f7ef !important;
+}
+.tamanho-logo{
+    font-size: 35px !important;
+    text-decoration: none;
+}
+.familia-fonte{
+    font-family: 'SeoulHangang CL';
+    color: #A66D05 !important;
+}
+.fontes{
+    font-family: 'SeoulHangang CL';
+}
+.titulos{
+    font-family: 'SeoulHangang CL';
+    color: #618C03;
+}
+.bg-cinza-claro{
+    background-color: #dde6e9;  
+}
+.btn-laranja{
+    background-color: #b69251 !important;
+    font-family: 'SeoulHangang CL' !important;
+}
+.card-cor{
+    background-color: #dae0c0;
+}
+.texto-imagem-fundo{
+    font-size: 16px;
+    font-family: 'SeoulHangang CL';
+}
+.cor-link{
+    color: black;
+}
+.sugestoes-receitas{
+    width: 350px;
+    height: 320px;
+    border-width:medium;
+    border-color: #bdc6ca;
+    background-color: #cccbcb;
+}
+.nossos-contato{
+    width: 350px;
+    height: 320px;
+    border-width:medium;
+    border-color: #bdc6ca;
+    background-color: #cccbcb;
+}
+.fundo{
+    background-color: #e6e9db;
+}
+.contato{
+    font-size: 16px;
+    color: black;
+    font-family: 'SeoulHangang CL'; 
+    text-decoration: none;
+}
+.footer-container{
+    background-color: #dde6e9;
+}
+.pontos{
+    list-style: none;
+}
+.linha-horizontal{
+    height: 7px;
+    background-color: #ceb78b;
+}
+.familia-copyright{
+    font-family: 'SeoulHangang CL';
+}
+.tamanho-logo-footer{
+    font-size: 35px;
+    text-decoration: none;
+}
+@media (min-width: 300px) and (max-width: 575px){
+    .resolu-menor{
+        font-size: 22px;
+        text-align: center;
+    }
+}

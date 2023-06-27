@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Cadastro de Receitas</title>
+</head>
+<body>
+    <header>
+        <div id="inicio"></div>
+         <nav class="navbar navbar-expand-lg navbar-light bg-cinza-claro">
+            <div class="container">
+              <a class="navbar-brad tamanho-logo familia-fonte logo" href="#">VEGETARIANISMO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active familia-fonte mx-2" href="file:///D:/SENAC/TI%20Tecnologia%20da%20Informa%C3%A7%C3%A3o/TI%20Tecnologia%20da%20Informa%C3%A7%C3%A3o/Programa%C3%A7%C3%A3o/Vegetarianismo/index.html">Inicio</a>
+                      </li>
+
+                   <li class="nav-item">
+                     <a class="nav-link active familia-fonte mx-2" href="file:///C:/Users/iquit/Desktop/vegetarianismo/index.html#populares">Receitas</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link active familia-fonte mx-2" href="file:///C:/Users/iquit/Desktop/vegetarianismo/index.html#contato">Contato</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link active familia-fonte mx-2" href="#">Sobre Nós</a>
+                   </li>
+                  </ul>
+               </div>
+           </nav>
+      </header>
+
+      <section class="container">
+
+        <div class="border border-3 mt-5">
+
+          <h1 class="titulos resolu-menor text-center mt-3 mt-lg-5 mb-lg-5">Cadastro de Receitas Vegetarianas</h1>
+
+          <form action="#" method="post">
+
+            <div class="d-flex flex-column px-5 py-2">
+              <label class="fs-5 mb-3 fontes" for="">Imagem da Receita</label>
+              <input type="file" accept="images/*" name="imagem_receita" id="imagem_receita">
+            </div>
+            <div class="d-flex flex-column px-5 py-2">
+              <label class="fs-5 mb-3 fontes" for="">Nome da Receita</label>
+              <input type="text" name="nome_receita" id="nome_receita">
+            </div>
+            <div class="d-flex flex-column px-5 py-2">
+              <label class="fs-5 mb-3 fontes" for="">Resumo da Receita</label>
+              <textarea name="resumo_receita" id="resumo_receita" cols="30" rows="5"></textarea>
+            </div>
+      
+          </form>
+
+          <div class="d-flex justify-content-end my-3 me-5">
+            <button type="submit" onclick="cadastros_receitas();" class="btn btn-laranja">Cadastrar</button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <footer class="container-fluid">
+      
+        <div class="footer-container mt-5">
+  
+            <ul class="pontos">
+              <li class="mt-1"><a class="tamanho-logo-footer familia-fonte resolu-menor" href="#">VEGETARIANISMO</a></li>
+              <li class="mt-1"><a class="familia-fonte text-decoration-none" href="file:///D:/SENAC/TI%20Tecnologia%20da%20Informa%C3%A7%C3%A3o/TI%20Tecnologia%20da%20Informa%C3%A7%C3%A3o/Programa%C3%A7%C3%A3o/Vegetarianismo/index.html">Inicio</a></li>
+              <li class="mt-1"><a class="familia-fonte text-decoration-none" href="file:///C:/Users/iquit/Desktop/vegetarianismo/index.html#populares">Receitas</a></li>
+              <li class="mt-1"><a class="familia-fonte text-decoration-none" href="file:///C:/Users/iquit/Desktop/vegetarianismo/index.html#contato">Contato</a></li>
+              <li class="mt-1"><a class="familia-fonte text-decoration-none" href="#">Sobre Nós</a></li>
+            </ul> 
+  
+            <div class="linha-horizontal w-100"></div>
+            <div class="text-center familia-copyright mt-2">Copyright 2021 - Todos os Direitos Reservados - Gustavo Design !!</div>
+  
+          </div>
+      </footer>
+      <script src="javascript/valida_campos.js"></script>
+ <!-- JavaScript do Bootsatrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+</body>
+</html>
