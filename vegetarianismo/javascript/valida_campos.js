@@ -23,7 +23,6 @@ function cadastros_receitas(){
     }else{
         alert('Cadastro realizado com sucesso !!');
     }
-
 }
 
 
