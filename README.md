@@ -1,4 +1,4 @@
 # Vegetarianismo
 
-***Repositório do Vegetarianismo***
+Repositório do site Vegetarianismo
 
