@@ -1,4 +1,7 @@
-# Vegetarianismo
+# O QUE AINDA PRECISA SER FEITO NO PROJETO VEGETARIANISMO ?
 
-**Repositório do site Vegetarianismo em Desenvolvimento**, se alguem tiver uma ideia para deixar o site mais versátil
+
+- [ ] Criar uma página Sobre Nós.
+- [ ] Fazer a Sugestões de Receitas e Contato Funcionar.
+- [ ] Fazer a página Cadastro funcionar, para cadastrar novas receitas.l
 
