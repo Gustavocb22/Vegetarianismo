@@ -79,3 +79,23 @@ body{
         text-align: center;
     }
 }
+/*SESSÃO SOBRE NÓS*/
+.sobre_vegetarianismo{
+    border: 10px solid #daccb2;
+    margin: 50px 200px 50px 200px;
+}
+.sobre_vegetarianismo h1{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'SeoulHangang CL';
+    text-align: center;
+    color: #618C03
+}
+.sobre_vegetarianismo p{
+    margin: 10px 30px 10px 30px;
+    font-family: 'SeoulHangang CL';
+}
+.sobre_vegetarianismo img{
+  width: 100%;
+}
