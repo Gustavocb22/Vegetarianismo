@@ -6,7 +6,6 @@
   "description": "- [ ] Criar uma página Sobre Nós.\r - [ ] Fazer a Sugestões de Receitas e Contato Funcionar.\r - [ ] Fazer a página Cadastro funcionar, para cadastrar novas receitas.l",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
