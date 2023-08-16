@@ -71,6 +71,8 @@ body{
     font-size: 35px;
     text-decoration: none;
 }
+
+/* RESPONSIVIDADE */
 @media (min-width: 300px) and (max-width: 575px){
     .resolu-menor{
         font-size: 22px;
