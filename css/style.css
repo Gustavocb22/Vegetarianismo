@@ -93,7 +93,7 @@ body{
   width: 100%;
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVIDADE DO PRIMEIRO CARD */
 @media (min-width: 320px) and (max-width: 575px){
     .resolu-menor{
         font-size: 22px;
