@@ -72,13 +72,6 @@ body{
     text-decoration: none;
 }
 
-/* RESPONSIVIDADE */
-@media (min-width: 300px) and (max-width: 575px){
-    .resolu-menor{
-        font-size: 22px;
-        text-align: center;
-    }
-}
 /*SESSÃO SOBRE NÓS*/
 .sobre_vegetarianismo{
     border: 10px solid #daccb2;
@@ -99,3 +92,11 @@ body{
 .sobre_vegetarianismo img{
   width: 100%;
 }
+
+/* RESPONSIVIDADE */
+/* @media (min-width: 320px) and (max-width: 575px){
+    .resolu-menor{
+        font-size: 22px;
+        text-align: center;
+    }
+} */
