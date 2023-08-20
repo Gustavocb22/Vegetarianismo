@@ -1,3 +1,8 @@
-EM DESENVOLVIMENTO !!!!
+Bem Vindos ao Site sobre Receitas Vegetarianas !!
 
-https://gustavocb22.github.io/Vegetarianismo/
+- Fico aberto para sugestões sobre o código fonte, para possível melhora.
+- Linguagens utilizadas : HTML,CSS e Javascript
+- Framework : Bootstrap
+- 
+
+
