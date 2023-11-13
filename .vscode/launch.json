@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "C:/Users/Gustavo/Documents/MeusProjetos/Vegetarianismo/index.html",
+            "url": "C:/UserC:\Users\win10pro\Documents\GitHub\Vegetarianismo/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
